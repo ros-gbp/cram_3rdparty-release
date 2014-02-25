@@ -1,0 +1,12 @@
+Source: ros-groovy-cffi
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-alexandria, ros-groovy-babel, ros-groovy-catkin, ros-groovy-trivial-features, sbcl
+Homepage: http://common-lisp.net/project/cffi/
+Standards-Version: 3.9.2
+
+Package: ros-groovy-cffi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-alexandria, ros-groovy-babel, ros-groovy-trivial-features, sbcl
+Description: 3rd party library: CFFI - The Common Foreign Function Interface
