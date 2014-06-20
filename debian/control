@@ -1,0 +1,12 @@
+Source: ros-hydro-cram-3rdparty
+Section: misc
+Priority: extra
+Maintainer: Georg Bartels <georg.bartels@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://ros.org/wiki/cram_3rdparty
+Standards-Version: 3.9.2
+
+Package: ros-hydro-cram-3rdparty
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-alexandria, ros-hydro-babel, ros-hydro-cffi, ros-hydro-cl-store, ros-hydro-cl-utilities, ros-hydro-fiveam, ros-hydro-gsd, ros-hydro-gsll, ros-hydro-lisp-unit, ros-hydro-split-sequence, ros-hydro-synchronization-tools, ros-hydro-trivial-features, ros-hydro-trivial-garbage, ros-hydro-trivial-gray-streams, ros-hydro-yason
+Description: Various 3rd party Common LISP packages for the CRAM framework.
