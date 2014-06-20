@@ -1,0 +1,12 @@
+Source: ros-groovy-gsd
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 7.0.0), ros-groovy-catkin, ros-groovy-split-sequence, sbcl
+Homepage: http://repo.or.cz/w/gsd.git
+Standards-Version: 3.9.2
+
+Package: ros-groovy-gsd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-split-sequence, sbcl
+Description: 3rd party library: GSD
