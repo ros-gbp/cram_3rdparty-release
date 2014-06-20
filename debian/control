@@ -1,0 +1,12 @@
+Source: ros-groovy-synchronization-tools
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-groovy-catkin, sbcl
+Homepage: http://common-lisp.net/~trittweiler/darcs/synchronization-tools/
+Standards-Version: 3.9.2
+
+Package: ros-groovy-synchronization-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, sbcl
+Description: 3rd party library: synchronization-tools
