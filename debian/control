@@ -1,0 +1,12 @@
+Source: ros-groovy-cram-3rdparty
+Section: misc
+Priority: extra
+Maintainer: Georg Bartels <georg.bartels@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 7.0.0), ros-groovy-catkin
+Homepage: http://ros.org/wiki/cram_3rdparty
+Standards-Version: 3.9.2
+
+Package: ros-groovy-cram-3rdparty
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-alexandria, ros-groovy-babel, ros-groovy-cffi, ros-groovy-cl-store, ros-groovy-cl-utilities, ros-groovy-fiveam, ros-groovy-gsd, ros-groovy-gsll, ros-groovy-lisp-unit, ros-groovy-split-sequence, ros-groovy-synchronization-tools, ros-groovy-trivial-features, ros-groovy-trivial-garbage, ros-groovy-trivial-gray-streams, ros-groovy-yason
+Description: Various 3rd party Common LISP packages for the CRAM framework.
