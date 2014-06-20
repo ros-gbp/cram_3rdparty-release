@@ -1,0 +1,12 @@
+Source: ros-groovy-gsll
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 7.0.0), libgsl0-dev, ros-groovy-catkin, ros-groovy-cffi, ros-groovy-cl-utilities, ros-groovy-gsd, ros-groovy-trivial-garbage, sbcl
+Homepage: http://common-lisp.net/project/gsll/
+Standards-Version: 3.9.2
+
+Package: ros-groovy-gsll
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgsl0-dev, ros-groovy-cffi, ros-groovy-cl-utilities, ros-groovy-gsd, ros-groovy-trivial-garbage, sbcl
+Description: 3rd party library: GSLL a GSL wrapper for common lisp
