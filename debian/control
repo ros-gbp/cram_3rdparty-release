@@ -1,0 +1,12 @@
+Source: ros-hydro-trivial-gray-streams
+Section: misc
+Priority: extra
+Maintainer: Jan Winkler <winkler@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, sbcl
+Homepage: http://common-lisp.net/project/trivial-gray-streams/
+Standards-Version: 3.9.2
+
+Package: ros-hydro-trivial-gray-streams
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, sbcl
+Description: 3rd party library: trivial-gray-streams
