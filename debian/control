@@ -1,0 +1,12 @@
+Source: ros-jade-fiveam
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-alexandria, ros-jade-catkin, sbcl
+Homepage: http://common-lisp.net/project/fiveam/
+Standards-Version: 3.9.2
+
+Package: ros-jade-fiveam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-alexandria, sbcl
+Description: 3rd party library: FiveAM
