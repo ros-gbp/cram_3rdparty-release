@@ -1,0 +1,12 @@
+Source: ros-jade-trivial-features
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, sbcl
+Homepage: http://www.cliki.net/trivial-features
+Standards-Version: 3.9.2
+
+Package: ros-jade-trivial-features
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, sbcl
+Description: 3rd party library: trivial-features
