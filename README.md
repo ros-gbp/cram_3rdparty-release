@@ -1,3 +1,40 @@
+## cram_3rdparty (indigo) - 0.1.3-0
+
+The packages in the `cram_3rdparty` repository were released into the `indigo` distro by running `/usr/bin/bloom-release cram_3rdparty -t indigo -r indigo` on `Fri, 24 Apr 2015 07:10:23 -0000`
+
+These packages were released:
+- `alexandria`
+- `babel`
+- `cffi`
+- `cl_store`
+- `cl_utilities`
+- `cram_3rdparty`
+- `fiveam`
+- `gsd`
+- `gsll`
+- `lisp_unit`
+- `split_sequence`
+- `synchronization_tools`
+- `trivial_features`
+- `trivial_garbage`
+- `trivial_gray_streams`
+- `yason`
+
+Version of package(s) in repository `cram_3rdparty`:
+- upstream repository: https://github.com/cram-code/cram_3rdparty.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.3-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## cram_3rdparty (hydro) - 0.1.3-0
 
 The packages in the `cram_3rdparty` repository were released into the `hydro` distro by running `/usr/bin/bloom-release cram_3rdparty -t hydro -r hydro` on `Fri, 24 Apr 2015 07:00:26 -0000`
