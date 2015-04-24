@@ -1,0 +1,12 @@
+Source: ros-indigo-cl-utilities
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, sbcl
+Homepage: http://common-lisp.net/project/cl-utilities/
+Standards-Version: 3.9.2
+
+Package: ros-indigo-cl-utilities
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, sbcl
+Description: 3rd party library: CL-UTILITIES
