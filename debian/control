@@ -1,0 +1,12 @@
+Source: ros-jade-cram-3rdparty
+Section: misc
+Priority: extra
+Maintainer: Georg Bartels <georg.bartels@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://ros.org/wiki/cram_3rdparty
+Standards-Version: 3.9.2
+
+Package: ros-jade-cram-3rdparty
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-alexandria, ros-jade-babel, ros-jade-cffi, ros-jade-cl-store, ros-jade-cl-utilities, ros-jade-fiveam, ros-jade-gsd, ros-jade-gsll, ros-jade-lisp-unit, ros-jade-split-sequence, ros-jade-synchronization-tools, ros-jade-trivial-features, ros-jade-trivial-garbage, ros-jade-trivial-gray-streams, ros-jade-yason
+Description: Various 3rd party Common LISP packages for the CRAM framework.
