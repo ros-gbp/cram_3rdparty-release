@@ -1,0 +1,12 @@
+Source: ros-jade-cffi
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-alexandria, ros-jade-babel, ros-jade-catkin, ros-jade-trivial-features, sbcl
+Homepage: http://common-lisp.net/project/cffi/
+Standards-Version: 3.9.2
+
+Package: ros-jade-cffi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-alexandria, ros-jade-babel, ros-jade-trivial-features, sbcl
+Description: 3rd party library: CFFI - The Common Foreign Function Interface
