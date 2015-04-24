@@ -1,0 +1,12 @@
+Source: ros-indigo-cram-3rdparty
+Section: misc
+Priority: extra
+Maintainer: Georg Bartels <georg.bartels@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/cram_3rdparty
+Standards-Version: 3.9.2
+
+Package: ros-indigo-cram-3rdparty
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-alexandria, ros-indigo-babel, ros-indigo-cffi, ros-indigo-cl-store, ros-indigo-cl-utilities, ros-indigo-fiveam, ros-indigo-gsd, ros-indigo-gsll, ros-indigo-lisp-unit, ros-indigo-split-sequence, ros-indigo-synchronization-tools, ros-indigo-trivial-features, ros-indigo-trivial-garbage, ros-indigo-trivial-gray-streams, ros-indigo-yason
+Description: Various 3rd party Common LISP packages for the CRAM framework.
